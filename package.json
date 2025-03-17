@@ -1,19 +1,31 @@
 {
-  "name": "flutersena",
+  "name": "api-rest-personas",
   "version": "1.0.0",
+  "description": "",
   "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mauricioestupian/flutterSena.git"
+    "url": "git+https://github.com/SoftwareFactoryCEET/api-rest-personas.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mauricioestupian/flutterSena/issues"
+    "url": "https://github.com/SoftwareFactoryCEET/api-rest-personas/issues"
   },
-  "homepage": "https://github.com/mauricioestupian/flutterSena#readme",
-  "description": ""
+  "homepage": "https://github.com/SoftwareFactoryCEET/api-rest-personas#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.13.0",
+    "mysql2-promise": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
