@@ -14,3 +14,10 @@ telefono varchar(20) DEFAULT NULL,
 direccion varchar(255) DEFAULT NULL,
 PRIMARY KEY (id)
 ) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8mb4
+
+\*\* Archivo .env:
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=db_persona
+DB_PORT=3306
