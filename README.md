@@ -21,3 +21,6 @@ DB_USER=root
 DB_PASSWORD=
 DB_NAME=db_persona
 DB_PORT=3306
+
+instalar libreria mysql2 para node
+https://www.npmjs.com/package/mysql2
